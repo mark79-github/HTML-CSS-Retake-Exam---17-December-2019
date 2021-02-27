@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.15.2/css/all.css');
+
+body {
+    font-family: 'Gelasio', serif;
+}
+
+header {
+    background: #E6E3DE;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.logo {
+    background-image: url("./Requirements-and-Resources/Media/craving.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.input-container > input {
+    background-color: rgba(220, 220, 220, 0.6);
+    border: unset;
+    width: 240px;
+    height: 30px;
+    padding-left: 30px;
+    outline: unset;
+    color: #fff;
+}
+
+.input-container {
+    position: relative;
+}
+
+.input-container:before {
+    content: '\f002';
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    color: white;
+    font-weight: 600;
+    top: 6px;
+    left: 6px;
+}
+
+.header-logo p {
+    font-size: 32px;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+.header-search {
+    display: flex;
+    align-items: center;
+}
+
+.header-search {
+    margin-right: 20px;
+}
+
+.header-search p {
+    background: #554938;
+    padding: 5px 10px;
+    color: white;
+    margin-right: 20px;
+}
+
+.header-search p:hover,
+.header-search i:hover {
+    cursor: pointer;
+}
+
+.header-navigation ul {
+    display: flex;
+}
+
+.header-navigation ul li {
+    padding: 0 20px;
+}
+
+main {
+    font-family: 'Gelasio', serif;
+    background: url("./Requirements-and-Resources/Media/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0 0 0;
+}
+
+.favourites {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cocktails {
+    display: flex;
+    padding: 50px 0;
+}
+
+.cocktails-image-wrapper {
+    flex-basis: 70%;
+}
+
+.cocktails-image-wrapper img {
+    vertical-align: middle;
+}
+
+.cocktails-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background: #E6E3DE;
+}
+
+.cocktails-description-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.cocktails-description-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cocktails-description-btn {
+    background: #554938;
+    color: white;
+    border: unset;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-family: inherit;
+}
+
+.cocktails-description-btn:hover {
+    cursor: pointer;
+}
+
+.cookies {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.cookies-image-wrapper {
+    flex-basis: 70%;
+    order: 1;
+}
+
+.cookies-image-wrapper img {
+    vertical-align: middle;
+}
+
+.cookies-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    background: #E6E3DE;
+}
+
+.cookies-description-title {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cookies-description-text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.toolbox {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.toolbox-title,
+.toolbox-btn {
+    min-width: 250px;
+    margin: 20px auto;
+}
+
+.toolbox-title {
+    background: #E6E3DE;
+}
+
+.toolbox-title > p {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+.toolbox-btn > button {
+    width: 100%;
+    background: #DB4D34;
+    border: unset;
+    color: white;
+    padding: 10px 0;
+    font-size: 14px;
+    font-family: 'Gelasio', serif;
+}
+
+.toolbox-btn > button:hover {
+    cursor: pointer;
+}
+
+.toolbox-cookies {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.toolbox-cookies-card {
+    flex-basis: 16%;
+    background-color: rgba(220, 220, 220, 0.6);
+}
+
+.toolbox-cookies-card > p {
+    color: white;
+    text-align: center;
+
+    padding: 10px 0;
+}
+
+footer {
+    background-color: rgba(220, 220, 220, 0.6);
+}
+
+.footer-navigation {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-navigation ul {
+    display: flex;
+    /*justify-content: space-between;*/
+}
+
+.footer-navigation ul li {
+    color: black;
+    padding: 0 10px;
+    border-right: 1px solid black;
+}
+
+.footer-navigation ul li:last-child {
+    border: unset;
+}

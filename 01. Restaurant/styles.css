@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background: #FFD9B0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    max-width: 1000px;
+    max-height: 600px;
+    margin: 50px auto 100px auto;
+    display: flex;
+    background: black;
+    border-radius: 8px;
+}
+
+.card-image-wrapper {
+    flex-basis: 60%;
+}
+
+.card-image-wrapper img {
+    height: 100%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.card-content {
+    flex-grow: 1;
+    padding: 70px 40px;
+}
+
+.card-content > *,
+#form > * {
+    margin-bottom: 20px;
+}
+
+.card-content h2 {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#form > input {
+    border: unset;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+#form > input[type=submit] {
+    background: #FFD9B0;
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    padding: 16px 24px;
+    width: 45%;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+}
